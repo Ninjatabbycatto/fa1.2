@@ -1,7 +1,7 @@
 <data>
 
 
-    <interval begin="0" end="2400" >
+    <interval begin="100" end="199" >
         <edgeRelation from="-E5" to="-E11" probability="0.30"/>
         <edgeRelation from="-E5" to="E7" probability="0.45"/>
         <edgeRelation from="-E5" to="E4" probability="0.25"/>
@@ -14,6 +14,8 @@
         <edgeRelation from="-E6" to="E0" probability="0.30"/>
         <edgeRelation from="-E6" to="-E8" probability="0.45"/>
         <edgeRelation from="-E6" to="E0" probability="0.25"/>
+
+
     </interval>
 
 </data>
