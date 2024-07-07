@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-07-05 14:59:56 by Eclipse SUMO duarouter Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="map3.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="mynetwork.rou.xml"/>
+    </output>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="flow1.0" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.1" depart="45.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.2" depart="90.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.3" depart="135.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.4" depart="180.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.5" depart="225.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.6" depart="270.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.7" depart="315.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.8" depart="360.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.9" depart="405.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.10" depart="450.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.11" depart="495.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.12" depart="540.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.13" depart="585.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.14" depart="630.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.15" depart="675.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.16" depart="720.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.17" depart="765.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.18" depart="810.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.19" depart="855.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.20" depart="900.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.21" depart="945.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.22" depart="990.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.23" depart="1035.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.24" depart="1080.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.25" depart="1125.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.26" depart="1170.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.27" depart="1215.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.28" depart="1260.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.29" depart="1305.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.30" depart="1350.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.31" depart="1395.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.32" depart="1440.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.33" depart="1485.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.34" depart="1530.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.35" depart="1575.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.36" depart="1620.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.37" depart="1665.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.38" depart="1710.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.39" depart="1755.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.40" depart="1800.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.41" depart="1845.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.42" depart="1890.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.43" depart="1935.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.44" depart="1980.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.45" depart="2025.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.46" depart="2070.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.47" depart="2115.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.48" depart="2160.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.49" depart="2205.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.50" depart="2250.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.51" depart="2295.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.52" depart="2340.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.53" depart="2385.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.54" depart="2430.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.55" depart="2475.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.56" depart="2520.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.57" depart="2565.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.58" depart="2610.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.59" depart="2655.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.60" depart="2700.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.61" depart="2745.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.62" depart="2790.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.63" depart="2835.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.64" depart="2880.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.65" depart="2925.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.66" depart="2970.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.67" depart="3015.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.68" depart="3060.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.69" depart="3105.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.70" depart="3150.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.71" depart="3195.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.72" depart="3240.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.73" depart="3285.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.74" depart="3330.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.75" depart="3375.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.76" depart="3420.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.77" depart="3465.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.78" depart="3510.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="flow1.79" depart="3555.00">
+        <routeDistribution last="0">
+            <route cost="151.97" probability="1.00000000" edges="E8 -E5"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

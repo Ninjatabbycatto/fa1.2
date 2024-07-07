@@ -1,0 +1,4 @@
+<routes>
+    <!-- 80 cars turning right from edge1 to edge3 between 0:00 and 1:00 -->
+    <flow id="flow1" begin="0" end="3600" number="80" from="E8" to="-E5"/>
+</routes>

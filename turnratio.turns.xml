@@ -1,0 +1,19 @@
+<data>
+
+
+    <interval begin="0" end="2400" >
+        <edgeRelation from="-E5" to="-E11" probability="0.30"/>
+        <edgeRelation from="-E5" to="E7" probability="0.45"/>
+        <edgeRelation from="-E5" to="E4" probability="0.25"/>
+        <edgeRelation from="E4" to="-E3" probability="0.30"/>
+        <edgeRelation from="E4" to="E14" probability="0.45"/>
+        <edgeRelation from="E4" to="E2" probability="0.25"/>
+        <edgeRelation from="-E3" to="-E6" probability="0.30"/>
+        <edgeRelation from="-E3" to="E1" probability="0.45"/>
+        <edgeRelation from="-E3" to="E10" probability="0.25"/>
+        <edgeRelation from="-E6" to="E0" probability="0.30"/>
+        <edgeRelation from="-E6" to="-E8" probability="0.45"/>
+        <edgeRelation from="-E6" to="E0" probability="0.25"/>
+    </interval>
+
+</data>
