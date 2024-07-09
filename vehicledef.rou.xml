@@ -1,5 +1,8 @@
 <routes>
-    <vType id="type1" accel="1.3" decel="4.5" sigma="0.5" length="5" maxSpeed="100" minGap="2.0" tau="1.0"/>
+    <vType id="type1" accel="2.3"  decel="4.5" sigma="0.5" length="5" maxSpeed="100" minGap="2.0" tau="1.0"/>
+    <vType id="type1" accel="2.3" decel="4.5" sigma="0.5" length="5" maxSpeed="100" minGap="2.0" tau="1.0"/>
+    <vType id="type1" accel="2.3" decel="4.5" sigma="0.5" length="5" maxSpeed="100" minGap="2.0" tau="1.0"/>
+    <vType id="type1" accel="2.3" decel="4.5" sigma="0.5" length="5" maxSpeed="100" minGap="2.0" tau="1.0"/>
 
 
     <route id="E8-E11" edges="E8 -E5 -E11"/>
@@ -23,16 +26,16 @@
     <route id="E11E7" edges="E11 E7"/>
     <route id="E11E72" edges="E11 E5 E6 E3 -E4 E7"/>
     <route id="E11E2" edges="E11 E4 E2"/>
-    <route id="E11E22" edges="E11 -E5 E6 E3 E2"/>
+    <route id="E11E22" edges="E11 E5 E6 E3 E2"/>
     <route id="E1114" edges="E11 E4 E14"/>
-    <route id="E11142" edges="E11 -E5 E6 E3 E14"/>
+    <route id="E11142" edges="E11 E5 E6 E3 E14"/>
     <route id="E11E10" edges="E11 E4 -E3 E10"/>
-    <route id="E11E102" edges="E11 -E5 E6 E10"/>
+    <route id="E11E102" edges="E11 E5 E6 E10"/>
     <route id="E11E1" edges="E11 E4 -E3 E1"/>
-    <route id="E11E12" edges="E11 -E5 E6 E1"/>
-    <route id="E11E0" edges="E11 -E5 E0"/>
+    <route id="E11E12" edges="E11 E5 E6 E1"/>
+    <route id="E11E0" edges="E11 E5 E0"/>
     <route id="E11E02" edges="E11 E4 -E3 -E6 E0"/>
-    <route id="E11E8" edges="E11 -E5 -E8"/>
+    <route id="E11E8" edges="E11 E5 -E8"/>
     <route id="E11E82" edges="E11 E4 -E3 -E6 -E8"/>
     <route id="E11E11" edges="E11 E4 -E3 -E6 -E5 -E11"/>
     <route id="E11E112" edges="E11 E5 E6 E3 -E4 -E11"/>
@@ -40,8 +43,8 @@
 
     <route id="-E14E2" edges="-E14 E2"/>
     <route id="-E14E22" edges="-E14 -E3 -E6 -E5 E4 E2"/>
-    <route id="-E14E10" edges="-E14 -E3 -E10"/>
-    <route id="-E14E102" edges="-E14 -E4 E5 E6 -E10"/>
+    <route id="-E14E10" edges="-E14 -E3 E10"/>
+    <route id="-E14E102" edges="-E14 -E4 E5 E6 E10"/>
     <route id="-E14E1" edges="-E14 -E3 E1"/>
     <route id="-E14E12" edges="-E14 -E4 E5 E6 E1"/>
     <route id="-E14E0" edges="-E14 -E3 -E6 E0"/>
@@ -72,7 +75,7 @@
     <route id="-E10E10" edges="-E10 -E6 -E5 E4 -E3 E10"/>
     <route id="-E10E102" edges="-E10 E3 -E4 E5 E6 E10"/>
 
-    <flow id="E8-E11" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E8-E11"/>
+    <flow id="E8-E11" departSpeed="60" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E8-E11"/>
     <flow id="E8-E112" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E8-E112"/>
     <flow id="E8E7" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E8E7"/>
     <flow id="E8E72" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E8E72"/>
@@ -89,57 +92,56 @@
     <flow id="E8E0" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E8E8"/>
     <flow id="E8E02" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E8E82"/>
 
-    <flow id="E11E7" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E7"/>
-    <flow id="E11E72" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E72"/>
-    <flow id="E11E2" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E2"/>
-    <flow id="E11E22" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E22"/>
-    <flow id="E1114" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E1114"/>
-    <flow id="E11142" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11142"/>
-    <flow id="E11E10" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E10"/>
-    <flow id="E11E102" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E102"/>
-    <flow id="E11E1" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E1"/>
-    <flow id="E11E12" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E12"/>
-    <flow id="E11E0" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E0"/>
-    <flow id="E11E02" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E02"/>
-    <flow id="E11E8" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E8"/>
-    <flow id="E11E82" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E82"/>
-    <flow id="E11E8" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E11"/>
-    <flow id="E11E82" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E112"/>
+    <flow id="E11E7" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E7"/>
+    <flow id="E11E72" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E72"/>
+    <flow id="E11E2" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E2"/>
+    <flow id="E11E22" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E22"/>
+    <flow id="E1114" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E1114"/>
+    <flow id="E11142" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11142"/>
+    <flow id="E11E10" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E10"/>
+    <flow id="E11E102" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E102"/>
+    <flow id="E11E1" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E1"/>
+    <flow id="E11E12" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E12"/>
+    <flow id="E11E0" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E0"/>
+    <flow id="E11E02" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E02"/>
+    <flow id="E11E8" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E8"/>
+    <flow id="E11E82" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E82"/>
+    <flow id="E11E8" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E11"/>
+    <flow id="E11E82" color="0,1,1" begin="0" end = "3200" period="10" type="type1" number="100" route="E11E112"/>
     
-    <flow id="-E14E2" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E2"/>
-    <flow id="-E14E22" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E22"/>
-    <flow id="-E14E10" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E10"/>
-    <flow id="-E14E102" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E102"/>
-    <flow id="-E14E1" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E1"/>
-    <flow id="-E14E12" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E12"/>
-    <flow id="-E14E0" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E0"/>
-    <flow id="-E14E02" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E02"/>
-    <flow id="-E14E8" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E8"/>
-    <flow id="-E14E82" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E82"/>
-    <flow id="-E14E11" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E11"/>
-    <flow id="-E14E112" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E112"/>
-    <flow id="-E14E7" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E7"/>
-    <flow id="-E14E7" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E7"/>
-    <flow id="-E14E14" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E14"/>
-    <flow id="-E14E142" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E142"/>
+    <flow id="-E14E2" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E2"/>
+    <flow id="-E14E22" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E22"/>
+    <flow id="-E14E10" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E10"/>
+    <flow id="-E14E102" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E102"/>
+    <flow id="-E14E1" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E1"/>
+    <flow id="-E14E12" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E12"/>
+    <flow id="-E14E0" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E0"/>
+    <flow id="-E14E02" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E02"/>
+    <flow id="-E14E8" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E8"/>
+    <flow id="-E14E82" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E82"/>
+    <flow id="-E14E11" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E11"/>
+    <flow id="-E14E112" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E112"/>
+    <flow id="-E14E7" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E7"/>
+    <flow id="-E14E7" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E7"/>
+    <flow id="-E14E14" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E14"/>
+    <flow id="-E14E142" color="1,0,1" begin="0" end = "3200" period="10" type="type1" number="100" route="-E14E142"/>
    
-    <flow id="-E10E1" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E1"/>
-    <flow id="-E10E12" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E12"/>
-    <flow id="-E10E0" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E0"/>
-    <flow id="-E10E02" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E02"/>
-    <flow id="-E10E8" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E8"/>
-    <flow id="-E10E82" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E82"/>
-    <flow id="-E10E11" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E11"/>
-    <flow id="-E10E112" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E112"/>
-    <flow id="-E10E7" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E7"/>
-    <flow id="-E10E72" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E72"/>
-    <flow id="-E10E2" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E2"/>
-    <flow id="-E10E22" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E22"/>
-    <flow id="-E10E14" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E14"/>
-    <flow id="-E10E142" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E142"/>
-    <flow id="-E10E10" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E10"/>
-    <flow id="-E10E102" color="1,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E102"/>
-
+    <flow id="-E10E1" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E1"/>
+    <flow id="-E10E12" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E12"/>
+    <flow id="-E10E0" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E0"/>
+    <flow id="-E10E02" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E02"/>
+    <flow id="-E10E8" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E8"/>
+    <flow id="-E10E82" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E82"/>
+    <flow id="-E10E11" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E11"/>
+    <flow id="-E10E112" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E112"/>
+    <flow id="-E10E7" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E7"/>
+    <flow id="-E10E72" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E72"/>
+    <flow id="-E10E2" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E2"/>
+    <flow id="-E10E22" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E22"/>
+    <flow id="-E10E14" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E14"/>
+    <flow id="-E10E142" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E142"/>
+    <flow id="-E10E10" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E10"/>
+    <flow id="-E10E102" color="0,1,0" begin="0" end = "3200" period="10" type="type1" number="100" route="-E10E102"/>
 
 
 </routes>
